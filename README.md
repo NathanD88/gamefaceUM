@@ -1,5 +1,7 @@
 # GamefaceUm
 
+Please note that the newest versions of [node](https://nodejs.org/en/) and [angular](https://angular.io/) may be required.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
 ## Development server
