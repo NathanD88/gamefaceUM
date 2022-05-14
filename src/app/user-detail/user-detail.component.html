@@ -1,0 +1,12 @@
+<div *ngIf="user" class="cont">
+    <h2>{{user.username | uppercase}} Information</h2>
+    <div class="icon"><fa-icon [icon]="faUser" class="fa-10x"></fa-icon></div>
+    <div><span>userID: </span>{{user.id}}</div>
+    <div>
+        <span>Status: </span>
+        <select #status [value]="user.status" (change)="handleChange(status)">
+            <option style="color: limegreen;" value="online">Online</option>
+            <option style="color: red;" value="offline">Offline</option>
+        </select>
+    </div>
+</div>

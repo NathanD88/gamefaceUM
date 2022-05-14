@@ -1,0 +1,21 @@
+
+nav {
+    box-sizing: border-box;
+    max-width: 100vw;
+    width: 100%;
+    padding: 1em 0.2em;
+    border-bottom: 2px solid black;
+    background: #525252;
+}
+.navlink {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px 0 10px;
+    font-size: 25px;
+}
+.navlink:hover {
+    box-sizing: border-box;
+    box-shadow: inset -0px 0px 10px 1px grey;
+    background: lightgrey;
+    border: 1px solid #525252;
+}

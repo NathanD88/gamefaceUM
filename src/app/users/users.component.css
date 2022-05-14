@@ -1,0 +1,77 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+li {
+    margin-right: 0px;
+    margin-bottom: 5px;
+    list-style: none;
+    width: fit-content;
+    min-width: 300px;
+    height: 30px;
+    box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.671);
+    border-radius: 5px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+li:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+li a {
+    font-size: 28px;
+    margin-left: .2em;
+    margin-right: 0px;
+    position: relative;
+    bottom: 6px;
+}
+.online {
+    box-sizing: border-box;
+    margin: 5px;
+    display: inline-block; 
+    border-radius: 50%; 
+    background: lightgreen; 
+    width: 20px; 
+    height:20px; 
+    margin-right: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 0.671);
+}
+.offline {
+    box-sizing: border-box;
+    margin: 5px;
+    display: inline-block; 
+    border-radius: 50%; 
+    background: red; 
+    width: 20px; 
+    height:20px; 
+    margin-right: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 0.671);
+}
+fa-icon {
+    margin-top: 6px;
+    float: right;
+    height: 1.5em;
+    width: 1.5em;
+}
+fa-icon:hover {
+    color: red;
+}
+.new-user {
+    border-radius: 4px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 10px;
+    box-shadow: inset -2px -2px 3px 3px #525252 ;
+}
+.new-user h2 {
+    margin-top: 0;
+}

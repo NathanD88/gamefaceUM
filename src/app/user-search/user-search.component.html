@@ -1,0 +1,12 @@
+<div id="search-component">
+    <label for="search-box">User Search</label>
+    <input #searchBox id="search-box" (input)="search(searchBox.value)" autocomplete="off" (blur)="clearSearch(searchBox)"/>
+
+    <ul class="search-result">
+        <li *ngFor="let user of users$ | async" (click)="clearSearch(searchBox)" >
+        <a routerLink="/detail/{{user.username}}">
+            {{user.username}}
+        </a>
+        </li>
+    </ul>
+</div>

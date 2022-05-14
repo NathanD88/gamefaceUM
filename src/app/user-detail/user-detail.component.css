@@ -1,0 +1,19 @@
+.cont {
+    width: 100vw;
+    height: fit-content;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: slategray;
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    box-shadow: inset 0px 0px 10px 10px #525252;
+}
